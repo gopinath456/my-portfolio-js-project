@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="mediaqueries.css"> 
+    <script src="script.js" defer></script>  
+</head>
+<body>
+    <nav id="destop-nav">
+    <div id="logo">Jhon Doe</div>
+    <div>
+    <ul id="nav-link">
+        <li><a href="">about</a></li>
+        <li><a href="">experience</a></li>
+        <li><a href="">project</a></li>
+        <li><a href="">contact</a></li>
+    </ul>
+    </div>
+    </nav>
+    <nav id="mobile-nav">
+        <div class="logo">Jhon Doe</div>
+        <div class="humberger-menu">
+            <div class="humberger-icon" onclick="toggleMenu()">
+                <span></span>                     
+                <span></span>                     
+                <span></span>                     
+            </div>
+            <div class="humberger-menu">
+                <ul class="menu-link">
+                    <li><a href="" onclick="toggleMenu()" >about</a></li>
+                    <li><a href="" onclick="toggleMenu()">experience</a></li>
+                    <li><a href="" onclick="toggleMenu()">project</a></li>
+                    <li><a href="" onclick="toggleMenu()">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="section-container">
+        <div class="profile_pic">
+            <img src="./assets/profile-pic.png" alt="profile pic"/>
+        </div >
+        <div class="section_text">
+            <p class="section_text_p1">Hello,I'm</p>
+            <h1 class="title">John Doe</h1>
+            <p class="section_text_p2">Frontend
+            Developer</p>
+            <div class="btn-cotainer">
+            <button  class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf','_blank')">Download CV</button>
+            <button  class="btn btn-color-1" onclick="window.location.href='#contact'">contact </button>
+            </div>
+            <div class="social-media-container">
+                <img src="./assets/linkedin.png" alt="my linkdin profile " onclick="window.location.href='https://in.linkedin.com/'" class="icon"/>
+                <img src="./assets/github.png" alt="my linkdin profile " onclick="window.location.href='https://github.com/'" class="icon"/>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
