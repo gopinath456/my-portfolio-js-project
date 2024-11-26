@@ -228,6 +228,69 @@ section{
     cursor: pointer;
 }
 
+/*about section*/
+#about{
+    position:relative;
+}
+
+.about-container{
+    display: flex;
+    gap:2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about-detail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-pic{
+    border-radius: 2rem;
+    height: 400px;
+    width: 400px;
+}
+
+.arrow{
+    position:absolute;
+    right:-5rem;
+    bottom:2.5rem;
+    width:1rem;
+    height: 1rem;
+}
+
+.details-container{
+    padding:2.5rem;
+    flex:1;
+    border-radius: 2rem;
+    border:0.1rem solid rgb(53,53,53);
+    border-color: rgb(163,163,163);
+    text-align: center;
+    background:white;
+}
+
+.section-container{
+    height: 80vh;
+    gap:4rem;
+}
+
+.section-pic-container {
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+P{
+  color: rgb(85, 85, 85);
+}
+
+.section_text_p1{
+    text-align: center;
+}
+
+
+
 
 
     
